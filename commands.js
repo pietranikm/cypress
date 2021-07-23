@@ -1,4 +1,6 @@
 
+// position describes kind of the ticket by it's position in a ticket pool list, first is 0
+// number indicates number of tickets of a kind to buy
 
 Cypress.Commands.add('addToCart', (Url, position, number) =>{
 
